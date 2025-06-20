@@ -91,9 +91,9 @@ numpy
 ---
 
 ## 📸 Sample Output
-![Bird Tracking Screenshot](screenshots/output 1.png)
-![Bird Tracking Screenshot](screenshots/output 2.png)
-![Bird Tracking Screenshot](screenshots/output 3.png)
+![Bird Tracking Screenshot](screenshots/output1.png)
+![Bird Tracking Screenshot](screenshots/output2.png)
+![Bird Tracking Screenshot](screenshots/output3.png)
 
 
 
