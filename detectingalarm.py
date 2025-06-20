@@ -11,7 +11,7 @@ def load_model(model_path):
     return YOLO(model_path)
 
 def initialize_video(video_path, output_path):
-    cap = cv2.VideoCapture(video_path)
+    cap = cv2.VideoCapture(0)
     if not cap.isOpened():
         raise IOError(f"❌ Error: Cannot open video file at {video_path}")
     
@@ -53,7 +53,7 @@ def play_alert_sound(sound_path):
 def main():
     # 📂 Paths
     model_path = r"C:\Users\karpa\Desktop\finalproject\yolov9c-seg.pt"
-    video_path = r"C:\Users\karpa\Desktop\finalproject\istock1.jpg"
+    video_path = r"C:\Users\karpa\Desktop\finalproject\real.mp4"
     output_path = r"D:\newone\yolov9\bird_tracking_output.avi"
     sound_path = r"C:\Users\karpa\Desktop\finalproject\buzzer.mp3"  # 🔔 Set your alert sound path here
     

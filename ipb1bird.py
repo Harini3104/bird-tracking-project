@@ -12,7 +12,7 @@ model = YOLO(model_path)
 BIRD_CLASS_ID = 14  # ⚠️ Change this based on your dataset's class index for birds
 
 # 🎥 Load video file (Replace with your video path)
-video_path = r"C:\Users\karpa\Desktop\finalproject\wbird1.mp4"
+video_path = r"C:\Users\karpa\Desktop\finalproject\realtime.mp4"
 cap = cv2.VideoCapture(video_path)
 if not cap.isOpened():
     print("❌ Error: Cannot open video file! Check the path.")
