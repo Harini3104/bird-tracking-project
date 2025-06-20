@@ -5,14 +5,14 @@ from ultralytics import YOLO
 from deep_sort_realtime.deepsort_tracker import DeepSort
 
 # 🎯 Load YOLO model (Ensure correct path)
-model_path = r"C:\Users\karpa\Desktop\finalproject\yolov9c-seg.pt"
+model_path = r"yolov9c-seg.pt path"
 model = YOLO(model_path)
 
 # 🔍 Define the class ID for birds in your dataset
 BIRD_CLASS_ID = 14  # ⚠️ Change this based on your dataset's class index for birds
 
 # 🎥 Load video file (Replace with your video path)
-video_path = r"C:\Users\karpa\Desktop\finalproject\birdtwo.mp4"
+video_path = r"video path"
 cap = cv2.VideoCapture(video_path)
 
 # 📏 Get video properties
