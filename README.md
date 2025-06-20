@@ -91,7 +91,11 @@ numpy
 ---
 
 ## 📸 Sample Output
-![Bird Tracking Screenshot](screenshots/sample1.png)
+![Bird Tracking Screenshot](screenshots/output1.png)
+![Bird Tracking Screenshot](screenshots/output2.png)
+![Bird Tracking Screenshot](screenshots/output3.png)
+
+
 
 ---
 
@@ -100,7 +104,7 @@ numpy
 - **Harini M** 
 - **Divya Dharshika**  
 - **Aishwarya L**
--**Amirtha Varshini N G**
+- **Amirtha Varshini N G**
 
 ---
 
